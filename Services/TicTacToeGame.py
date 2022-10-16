@@ -62,7 +62,7 @@ class TicTacToeGame:
             print("It's turn: "+ str(self.turn) + " and player " + self.current_player.symbol + " is at play")
 
             print(self.draw_board())
-            self.input_symbol(self.current_player.enter_move(self.board, self.empty_symbol))
+            self.input_symbol(self.current_player.enter_move(self.board, self.empty_symbol, self.size))
 
             self.check_win()
 
