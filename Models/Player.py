@@ -1,7 +1,3 @@
-import sys
-sys.path.append('../Models')
-from Models import Player
-
 class Player:
     def __init__(self, symbol: str):
         if len(symbol) > 1:
